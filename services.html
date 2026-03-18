@@ -8,45 +8,31 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <!-- ========== HEADER ========== -->
   <header class="site-header" role="banner">
     <div class="header-inner">
       <a href="index.html" class="logo" aria-label="SSJ Commercial Services — Home">
         <svg class="logo-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="44" height="44" rx="8" fill="#1a7a3d"/>
+          <rect width="44" height="44" rx="8" fill="#1b3a5c"/>
           <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="#fff" font-family="Montserrat, sans-serif" font-weight="800" font-size="18">SSJ</text>
         </svg>
-        <div>
-          <span class="logo-text">SSJ</span>
-          <span class="logo-tagline">Commercial Services</span>
-        </div>
+        <div><span class="logo-text">SSJ</span><span class="logo-tagline">Commercial Services</span></div>
       </a>
       <nav class="main-nav" aria-label="Primary navigation">
-        <a href="about.html">About</a>
-        <a href="ssj-experience.html">The SSJ Experience</a>
-        <a href="services.html">Services</a>
-        <a href="what-we-clean.html">What We Clean</a>
-        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a><a href="ssj-experience.html">The SSJ Experience</a><a href="services.html">Services</a><a href="what-we-clean.html">What We Clean</a><a href="contact.html">Contact</a>
       </nav>
-      <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
-        <span></span><span></span><span></span>
-      </button>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span></span></button>
     </div>
     <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
-      <a href="about.html">About</a>
-      <a href="ssj-experience.html">The SSJ Experience</a>
-      <a href="services.html">Services</a>
-      <a href="what-we-clean.html">What We Clean</a>
-      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a><a href="ssj-experience.html">The SSJ Experience</a><a href="services.html">Services</a><a href="what-we-clean.html">What We Clean</a><a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <!-- ========== PAGE BANNER ========== -->
   <section class="page-banner" style="background-image: url('assets/combuild14jpg.jpg')" role="img" aria-label="Glass commercial tower with greenery">
     <div class="page-banner-content">
       <h1>Our Services</h1>
@@ -54,7 +40,6 @@
     </div>
   </section>
 
-  <!-- ========== MAIN ========== -->
   <main id="main-content">
 
     <!-- Intro -->
@@ -70,119 +55,112 @@
     <!-- Services Grid -->
     <section class="section section--gray" style="padding-top:0">
       <div class="container">
-        <div class="services-grid">
-
-          <div class="service-card">
-            <div class="service-card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/>
-              </svg>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-1">
+            <div class="service-card">
+              <div class="service-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+              </div>
+              <h3>Janitorial Services</h3>
+              <p>Daily, weekly, and custom-scheduled cleaning programs designed around your building's specific traffic patterns and operational hours.</p>
             </div>
-            <h3>Janitorial Services</h3>
-            <p>Daily, weekly, and custom-scheduled cleaning programs designed around your building's specific traffic patterns and operational hours.</p>
           </div>
-
-          <div class="service-card">
-            <div class="service-card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/>
-              </svg>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-2">
+            <div class="service-card">
+              <div class="service-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"/></svg>
+              </div>
+              <h3>Construction Cleanup</h3>
+              <p>Thorough post-construction detail cleaning that transforms new and renovated spaces into move-in-ready environments.</p>
             </div>
-            <h3>Construction Cleanup</h3>
-            <p>Thorough post-construction detail cleaning that transforms new and renovated spaces into move-in-ready environments.</p>
           </div>
-
-          <div class="service-card">
-            <div class="service-card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/>
-              </svg>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-3">
+            <div class="service-card">
+              <div class="service-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 5a1 1 0 011-1h14a1 1 0 011 1v2a1 1 0 01-1 1H5a1 1 0 01-1-1V5zM4 13a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H5a1 1 0 01-1-1v-6zM16 13a1 1 0 011-1h2a1 1 0 011 1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-6z"/></svg>
+              </div>
+              <h3>Carpet Cleaning</h3>
+              <p>Professional hot-water extraction and encapsulation methods that restore carpet appearance and extend fiber life across high-traffic commercial floors.</p>
             </div>
-            <h3>Carpet Cleaning</h3>
-            <p>Professional hot-water extraction and encapsulation methods that restore carpet appearance and extend fiber life across high-traffic commercial floors.</p>
           </div>
-
-          <div class="service-card">
-            <div class="service-card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-              </svg>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-4">
+            <div class="service-card">
+              <div class="service-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+              </div>
+              <h3>Power Washing</h3>
+              <p>High-pressure exterior cleaning for building facades, sidewalks, parking structures, and loading docks that restores curb appeal and removes stubborn buildup.</p>
             </div>
-            <h3>Power Washing</h3>
-            <p>High-pressure exterior cleaning for building facades, sidewalks, parking structures, and loading docks that restores curb appeal and removes stubborn buildup.</p>
           </div>
-
-          <div class="service-card">
-            <div class="service-card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/>
-              </svg>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-5">
+            <div class="service-card">
+              <div class="service-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7"/></svg>
+              </div>
+              <h3>Parking Lot Striping</h3>
+              <p>Precise line striping, stenciling, and ADA-compliant markings that enhance safety, organization, and regulatory compliance for your parking facilities.</p>
             </div>
-            <h3>Parking Lot Striping</h3>
-            <p>Precise line striping, stenciling, and ADA-compliant markings that enhance safety, organization, and regulatory compliance for your parking facilities.</p>
           </div>
-
-          <div class="service-card">
-            <div class="service-card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
-              </svg>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-6">
+            <div class="service-card">
+              <div class="service-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/></svg>
+              </div>
+              <h3>Vapor Cleaning</h3>
+              <p>Chemical-free steam sanitation technology that penetrates surfaces at high temperatures, eliminating bacteria and allergens without harsh residues.</p>
             </div>
-            <h3>Vapor Cleaning</h3>
-            <p>Chemical-free steam sanitation technology that penetrates surfaces at high temperatures, eliminating bacteria and allergens without harsh residues.</p>
           </div>
-
-          <div class="service-card">
-            <div class="service-card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
-              </svg>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-1">
+            <div class="service-card">
+              <div class="service-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
+              </div>
+              <h3>Event Cleaning</h3>
+              <p>Pre-event preparation and post-event restoration for conferences, galas, and corporate gatherings — ensuring your venue is impeccable from setup to breakdown.</p>
             </div>
-            <h3>Event Cleaning</h3>
-            <p>Pre-event preparation and post-event restoration for conferences, galas, and corporate gatherings — ensuring your venue is impeccable from setup to breakdown.</p>
           </div>
-
-          <div class="service-card">
-            <div class="service-card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/>
-              </svg>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-2">
+            <div class="service-card">
+              <div class="service-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z"/></svg>
+              </div>
+              <h3>Specialty Services</h3>
+              <p>From window washing and hard floor refinishing to light fixture cleaning and ceiling tile replacement — we handle the tasks others overlook.</p>
             </div>
-            <h3>Specialty Services</h3>
-            <p>From window washing and hard floor refinishing to light fixture cleaning and ceiling tile replacement — we handle the tasks others overlook.</p>
           </div>
-
-          <div class="service-card">
-            <div class="service-card-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-              </svg>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-3">
+            <div class="service-card">
+              <div class="service-card-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/></svg>
+              </div>
+              <h3>Disinfecting Services</h3>
+              <p>Hospital-grade electrostatic and fogging disinfection protocols that provide thorough pathogen elimination for high-risk and high-traffic environments.</p>
             </div>
-            <h3>Disinfecting Services</h3>
-            <p>Hospital-grade electrostatic and fogging disinfection protocols that provide thorough pathogen elimination for high-risk and high-traffic environments.</p>
           </div>
-
         </div>
       </div>
     </section>
 
-    <!-- Supporting Content -->
+    <!-- Tailored — 50/50 -->
     <section class="section">
       <div class="container">
-        <div class="content-split">
-          <div class="content-image">
-            <img src="assets/combuild8.jpg" alt="Professional janitorial cleaning equipment" style="height:360px">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 slide-in-left">
+            <div class="content-image">
+              <img src="assets/combuild8.jpg" alt="Professional janitorial cleaning equipment">
+            </div>
           </div>
-          <div class="content-text">
-            <h2>Tailored to Your Building</h2>
-            <p>No two facilities are alike, and neither are our cleaning programs. Our operations team works directly with you to develop a scope of work that matches your building's layout, occupancy, and operational schedule.</p>
-            <p>We continuously refine our approach based on inspection feedback, seasonal demands, and any changes to your space — because great facility care isn't static, it evolves with your business.</p>
+          <div class="col-lg-6 slide-in-right">
+            <div class="content-text">
+              <h2>Tailored to Your Building</h2>
+              <p>No two facilities are alike, and neither are our cleaning programs. Our operations team works directly with you to develop a scope of work that matches your building's layout, occupancy, and operational schedule.</p>
+              <p>We continuously refine our approach based on inspection feedback, seasonal demands, and any changes to your space — because great facility care isn't static, it evolves with your business.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CTA -->
     <section class="cta-banner">
       <div class="container">
         <h2>Need a Custom Cleaning Program?</h2>
@@ -193,69 +171,20 @@
 
   </main>
 
-  <!-- ========== FOOTER ========== -->
   <footer class="site-footer" role="contentinfo">
     <div class="container">
-      <div class="footer-top">
-        <div class="footer-about">
-          <span class="logo-text">SSJ</span>
-          <p>SSJ Commercial Services is a leading provider of janitorial and facility maintenance solutions throughout Nevada. With a focus on quality, sustainability, and client satisfaction, we keep commercial properties clean, safe, and inviting.</p>
-        </div>
-        <div>
-          <h3 class="footer-heading">Navigation</h3>
-          <div class="footer-links">
-            <a href="about.html">About</a>
-            <a href="ssj-experience.html">The SSJ Experience</a>
-            <a href="services.html">Services</a>
-            <a href="what-we-clean.html">What We Clean</a>
-            <a href="contact.html">Contact</a>
-          </div>
-        </div>
-        <div>
-          <h3 class="footer-heading">Services</h3>
-          <div class="footer-links">
-            <a href="services.html">Janitorial Services</a>
-            <a href="services.html">Construction Cleanup</a>
-            <a href="services.html">Carpet Cleaning</a>
-            <a href="services.html">Power Washing</a>
-            <a href="services.html">Disinfecting</a>
-          </div>
-        </div>
-        <div>
-          <h3 class="footer-heading">Contact</h3>
-          <div class="footer-links">
-            <a href="tel:+17025550100">(702) 555-0100</a>
-            <a href="mailto:info@ssjcommercial.com">info@ssjcommercial.com</a>
-            <a href="contact.html">Request a Quote</a>
-          </div>
-        </div>
+      <div class="row pb-4 mb-4" style="border-bottom: 1px solid rgba(255,255,255,0.1)">
+        <div class="col-lg-4 mb-4 mb-lg-0"><div class="footer-about"><span class="logo-text">SSJ</span><p>SSJ Commercial Services is a leading provider of janitorial and facility maintenance solutions throughout Nevada.</p></div></div>
+        <div class="col-6 col-lg-2 offset-lg-1 mb-4 mb-lg-0"><h3 class="footer-heading">Navigation</h3><div class="footer-links"><a href="about.html">About</a><a href="ssj-experience.html">The SSJ Experience</a><a href="services.html">Services</a><a href="what-we-clean.html">What We Clean</a><a href="contact.html">Contact</a></div></div>
+        <div class="col-6 col-lg-2 mb-4 mb-lg-0"><h3 class="footer-heading">Services</h3><div class="footer-links"><a href="services.html">Janitorial Services</a><a href="services.html">Construction Cleanup</a><a href="services.html">Carpet Cleaning</a><a href="services.html">Power Washing</a><a href="services.html">Disinfecting</a></div></div>
+        <div class="col-6 col-lg-2 offset-lg-1"><h3 class="footer-heading">Contact</h3><div class="footer-links"><a href="tel:+17025550100">(702) 555-0100</a><a href="mailto:info@ssjcommercial.com">info@ssjcommercial.com</a><a href="contact.html">Request a Quote</a></div></div>
       </div>
-      <div class="footer-locations">
-        <div class="location-block">
-          <h4>Las Vegas Office</h4>
-          <p>1200 Commerce Center Dr</p>
-          <p>Las Vegas, NV 89128</p>
-          <p>(702) 555-0100</p>
-        </div>
-        <div class="location-block">
-          <h4>Henderson Office</h4>
-          <p>850 Professional Pkwy</p>
-          <p>Henderson, NV 89052</p>
-          <p>(702) 555-0200</p>
-        </div>
-        <div class="location-block">
-          <h4>Reno Office</h4>
-          <p>400 Sierra Business Park</p>
-          <p>Reno, NV 89501</p>
-          <p>(775) 555-0300</p>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 SSJ Commercial Services. All rights reserved.</p>
-      </div>
+      <div class="footer-locations"><div class="row"><div class="col-md-4 mb-3 mb-md-0"><div class="location-block"><h4>Las Vegas Office</h4><p>1200 Commerce Center Dr</p><p>Las Vegas, NV 89128</p><p>(702) 555-0100</p></div></div><div class="col-md-4 mb-3 mb-md-0"><div class="location-block"><h4>Henderson Office</h4><p>850 Professional Pkwy</p><p>Henderson, NV 89052</p><p>(702) 555-0200</p></div></div><div class="col-md-4"><div class="location-block"><h4>Reno Office</h4><p>400 Sierra Business Park</p><p>Reno, NV 89501</p><p>(775) 555-0300</p></div></div></div></div>
+      <div class="footer-bottom"><p>&copy; 2026 SSJ Commercial Services. All rights reserved.</p></div>
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

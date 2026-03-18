@@ -8,45 +8,31 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <!-- ========== HEADER ========== -->
   <header class="site-header" role="banner">
     <div class="header-inner">
       <a href="index.html" class="logo" aria-label="SSJ Commercial Services — Home">
         <svg class="logo-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="44" height="44" rx="8" fill="#1a7a3d"/>
+          <rect width="44" height="44" rx="8" fill="#1b3a5c"/>
           <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="#fff" font-family="Montserrat, sans-serif" font-weight="800" font-size="18">SSJ</text>
         </svg>
-        <div>
-          <span class="logo-text">SSJ</span>
-          <span class="logo-tagline">Commercial Services</span>
-        </div>
+        <div><span class="logo-text">SSJ</span><span class="logo-tagline">Commercial Services</span></div>
       </a>
       <nav class="main-nav" aria-label="Primary navigation">
-        <a href="about.html">About</a>
-        <a href="ssj-experience.html">The SSJ Experience</a>
-        <a href="services.html">Services</a>
-        <a href="what-we-clean.html">What We Clean</a>
-        <a href="contact.html">Contact</a>
+        <a href="about.html">About</a><a href="ssj-experience.html">The SSJ Experience</a><a href="services.html">Services</a><a href="what-we-clean.html">What We Clean</a><a href="contact.html">Contact</a>
       </nav>
-      <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
-        <span></span><span></span><span></span>
-      </button>
+      <button class="hamburger" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav"><span></span><span></span><span></span></button>
     </div>
     <nav class="mobile-nav" id="mobile-nav" aria-label="Mobile navigation">
-      <a href="about.html">About</a>
-      <a href="ssj-experience.html">The SSJ Experience</a>
-      <a href="services.html">Services</a>
-      <a href="what-we-clean.html">What We Clean</a>
-      <a href="contact.html">Contact</a>
+      <a href="about.html">About</a><a href="ssj-experience.html">The SSJ Experience</a><a href="services.html">Services</a><a href="what-we-clean.html">What We Clean</a><a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <!-- ========== PAGE BANNER ========== -->
   <section class="page-banner" style="background-image: url('assets/combuild3.jpg')" role="img" aria-label="Las Vegas cityscape at night">
     <div class="page-banner-content">
       <h1>Contact Us</h1>
@@ -54,48 +40,18 @@
     </div>
   </section>
 
-  <!-- ========== MAIN ========== -->
   <main id="main-content">
 
-    <!-- Contact Form + Info -->
+    <!-- Contact Info — 50/50 -->
     <section class="section">
       <div class="container">
-        <div class="contact-grid">
-
-          <!-- Form -->
-          <div>
-            <h2 style="margin-bottom: var(--space-sm); font-family: var(--font-heading);">Send Us a Message</h2>
-            <p style="margin-bottom: var(--space-lg);">Fill out the form below and a member of our team will respond within one business day.</p>
-
-            <div class="form-success" role="alert">Thank you! Your message has been received. We'll be in touch shortly.</div>
-
-            <form id="contact-form" novalidate>
-              <div class="form-group">
-                <label for="name">Full Name <span aria-hidden="true">*</span></label>
-                <input type="text" id="name" name="name" autocomplete="name" required placeholder="Your full name">
-                <div class="form-error" id="name-error" role="alert"></div>
-              </div>
-              <div class="form-group">
-                <label for="email">Email Address <span aria-hidden="true">*</span></label>
-                <input type="email" id="email" name="email" autocomplete="email" required placeholder="you@company.com">
-                <div class="form-error" id="email-error" role="alert"></div>
-              </div>
-              <div class="form-group">
-                <label for="phone">Phone Number</label>
-                <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(702) 555-0100">
-                <div class="form-error" id="phone-error" role="alert"></div>
-              </div>
-              <div class="form-group">
-                <label for="message">Message <span aria-hidden="true">*</span></label>
-                <textarea id="message" name="message" required placeholder="Tell us about your facility and what you're looking for..."></textarea>
-                <div class="form-error" id="message-error" role="alert"></div>
-              </div>
-              <button type="submit" class="btn btn--primary btn--lg">Submit Request</button>
-            </form>
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 slide-in-left">
+            <div class="content-image">
+              <img src="assets/combuild1.jpg" alt="Modern glass commercial building">
+            </div>
           </div>
-
-          <!-- Contact Info -->
-          <div class="contact-info">
+          <div class="col-lg-6 slide-in-right">
             <h2 style="margin-bottom: var(--space-lg); font-family: var(--font-heading);">Get in Touch</h2>
 
             <div class="contact-info-item">
@@ -139,7 +95,6 @@
               </div>
             </div>
           </div>
-
         </div>
       </div>
     </section>
@@ -151,103 +106,60 @@
           <h2>Our Offices</h2>
           <p>Strategically located across Nevada to serve you quickly and effectively.</p>
         </div>
-        <div class="overview-cards">
-          <article class="overview-card" style="box-shadow: var(--shadow-card);">
-            <div class="overview-card-img" style="height:180px">
-              <img src="assets/combuild3.jpg" alt="Las Vegas office location">
-            </div>
-            <div class="overview-card-body">
-              <h3>Las Vegas</h3>
-              <p>1200 Commerce Center Dr<br>Las Vegas, NV 89128<br>(702) 555-0100</p>
-            </div>
-          </article>
-          <article class="overview-card" style="box-shadow: var(--shadow-card);">
-            <div class="overview-card-img" style="height:180px">
-              <img src="assets/combuild2.jpg" alt="Henderson office location">
-            </div>
-            <div class="overview-card-body">
-              <h3>Henderson</h3>
-              <p>850 Professional Pkwy<br>Henderson, NV 89052<br>(702) 555-0200</p>
-            </div>
-          </article>
-          <article class="overview-card" style="box-shadow: var(--shadow-card);">
-            <div class="overview-card-img" style="height:180px">
-              <img src="assets/combuild12.jpg" alt="Reno office location">
-            </div>
-            <div class="overview-card-body">
-              <h3>Reno</h3>
-              <p>400 Sierra Business Park<br>Reno, NV 89501<br>(775) 555-0300</p>
-            </div>
-          </article>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-1">
+            <article class="overview-card h-100">
+              <div class="overview-card-img" style="height:180px">
+                <img src="assets/combuild3.jpg" alt="Las Vegas office location">
+              </div>
+              <div class="overview-card-body">
+                <h3>Las Vegas</h3>
+                <p>1200 Commerce Center Dr<br>Las Vegas, NV 89128<br>(702) 555-0100</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-2">
+            <article class="overview-card h-100">
+              <div class="overview-card-img" style="height:180px">
+                <img src="assets/combuild2.jpg" alt="Henderson office location">
+              </div>
+              <div class="overview-card-body">
+                <h3>Henderson</h3>
+                <p>850 Professional Pkwy<br>Henderson, NV 89052<br>(702) 555-0200</p>
+              </div>
+            </article>
+          </div>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-3">
+            <article class="overview-card h-100">
+              <div class="overview-card-img" style="height:180px">
+                <img src="assets/combuild12.jpg" alt="Reno office location">
+              </div>
+              <div class="overview-card-body">
+                <h3>Reno</h3>
+                <p>400 Sierra Business Park<br>Reno, NV 89501<br>(775) 555-0300</p>
+              </div>
+            </article>
+          </div>
         </div>
       </div>
     </section>
 
   </main>
 
-  <!-- ========== FOOTER ========== -->
   <footer class="site-footer" role="contentinfo">
     <div class="container">
-      <div class="footer-top">
-        <div class="footer-about">
-          <span class="logo-text">SSJ</span>
-          <p>SSJ Commercial Services is a leading provider of janitorial and facility maintenance solutions throughout Nevada. With a focus on quality, sustainability, and client satisfaction, we keep commercial properties clean, safe, and inviting.</p>
-        </div>
-        <div>
-          <h3 class="footer-heading">Navigation</h3>
-          <div class="footer-links">
-            <a href="about.html">About</a>
-            <a href="ssj-experience.html">The SSJ Experience</a>
-            <a href="services.html">Services</a>
-            <a href="what-we-clean.html">What We Clean</a>
-            <a href="contact.html">Contact</a>
-          </div>
-        </div>
-        <div>
-          <h3 class="footer-heading">Services</h3>
-          <div class="footer-links">
-            <a href="services.html">Janitorial Services</a>
-            <a href="services.html">Construction Cleanup</a>
-            <a href="services.html">Carpet Cleaning</a>
-            <a href="services.html">Power Washing</a>
-            <a href="services.html">Disinfecting</a>
-          </div>
-        </div>
-        <div>
-          <h3 class="footer-heading">Contact</h3>
-          <div class="footer-links">
-            <a href="tel:+17025550100">(702) 555-0100</a>
-            <a href="mailto:info@ssjcommercial.com">info@ssjcommercial.com</a>
-            <a href="contact.html">Request a Quote</a>
-          </div>
-        </div>
+      <div class="row pb-4 mb-4" style="border-bottom: 1px solid rgba(255,255,255,0.1)">
+        <div class="col-lg-4 mb-4 mb-lg-0"><div class="footer-about"><span class="logo-text">SSJ</span><p>SSJ Commercial Services is a leading provider of janitorial and facility maintenance solutions throughout Nevada.</p></div></div>
+        <div class="col-6 col-lg-2 offset-lg-1 mb-4 mb-lg-0"><h3 class="footer-heading">Navigation</h3><div class="footer-links"><a href="about.html">About</a><a href="ssj-experience.html">The SSJ Experience</a><a href="services.html">Services</a><a href="what-we-clean.html">What We Clean</a><a href="contact.html">Contact</a></div></div>
+        <div class="col-6 col-lg-2 mb-4 mb-lg-0"><h3 class="footer-heading">Services</h3><div class="footer-links"><a href="services.html">Janitorial Services</a><a href="services.html">Construction Cleanup</a><a href="services.html">Carpet Cleaning</a><a href="services.html">Power Washing</a><a href="services.html">Disinfecting</a></div></div>
+        <div class="col-6 col-lg-2 offset-lg-1"><h3 class="footer-heading">Contact</h3><div class="footer-links"><a href="tel:+17025550100">(702) 555-0100</a><a href="mailto:info@ssjcommercial.com">info@ssjcommercial.com</a><a href="contact.html">Request a Quote</a></div></div>
       </div>
-      <div class="footer-locations">
-        <div class="location-block">
-          <h4>Las Vegas Office</h4>
-          <p>1200 Commerce Center Dr</p>
-          <p>Las Vegas, NV 89128</p>
-          <p>(702) 555-0100</p>
-        </div>
-        <div class="location-block">
-          <h4>Henderson Office</h4>
-          <p>850 Professional Pkwy</p>
-          <p>Henderson, NV 89052</p>
-          <p>(702) 555-0200</p>
-        </div>
-        <div class="location-block">
-          <h4>Reno Office</h4>
-          <p>400 Sierra Business Park</p>
-          <p>Reno, NV 89501</p>
-          <p>(775) 555-0300</p>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 SSJ Commercial Services. All rights reserved.</p>
-      </div>
+      <div class="footer-locations"><div class="row"><div class="col-md-4 mb-3 mb-md-0"><div class="location-block"><h4>Las Vegas Office</h4><p>1200 Commerce Center Dr</p><p>Las Vegas, NV 89128</p><p>(702) 555-0100</p></div></div><div class="col-md-4 mb-3 mb-md-0"><div class="location-block"><h4>Henderson Office</h4><p>850 Professional Pkwy</p><p>Henderson, NV 89052</p><p>(702) 555-0200</p></div></div><div class="col-md-4"><div class="location-block"><h4>Reno Office</h4><p>400 Sierra Business Park</p><p>Reno, NV 89501</p><p>(775) 555-0300</p></div></div></div></div>
+      <div class="footer-bottom"><p>&copy; 2026 SSJ Commercial Services. All rights reserved.</p></div>
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>

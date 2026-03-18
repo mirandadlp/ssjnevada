@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -18,7 +19,7 @@
     <div class="header-inner">
       <a href="index.html" class="logo" aria-label="SSJ Commercial Services — Home">
         <svg class="logo-icon" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect width="44" height="44" rx="8" fill="#1a7a3d"/>
+          <rect width="44" height="44" rx="8" fill="#1b3a5c"/>
           <text x="50%" y="54%" dominant-baseline="middle" text-anchor="middle" fill="#fff" font-family="Montserrat, sans-serif" font-weight="800" font-size="18">SSJ</text>
         </svg>
         <div>
@@ -57,33 +58,41 @@
   <!-- ========== MAIN ========== -->
   <main id="main-content">
 
-    <!-- Intro -->
+    <!-- Who We Are — 50/50 -->
     <section class="section">
       <div class="container">
-        <div class="content-split">
-          <div class="content-image">
-            <img src="assets/combuild12.jpg" alt="Green corporate campus with trees" style="height:360px">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 slide-in-left">
+            <div class="content-image">
+              <img src="assets/combuild12.jpg" alt="Green corporate campus with trees">
+            </div>
           </div>
-          <div class="content-text">
-            <h2>Who We Are</h2>
-            <p>SSJ Commercial Services was founded on a simple principle: every commercial space deserves outstanding care. Based in Nevada, we have grown into a trusted partner for property managers, building owners, and facility directors who refuse to settle for anything less than excellence.</p>
-            <p>Our team brings decades of combined experience in commercial janitorial services, construction cleanup, and specialized facility maintenance. We invest in people, training, and technology so that every property we serve reflects the professional image our clients demand.</p>
+          <div class="col-lg-6 slide-in-right">
+            <div class="content-text">
+              <h2>Who We Are</h2>
+              <p>SSJ Commercial Services was founded on a simple principle: every commercial space deserves outstanding care. Based in Nevada, we have grown into a trusted partner for property managers, building owners, and facility directors who refuse to settle for anything less than excellence.</p>
+              <p>Our team brings decades of combined experience in commercial janitorial services, construction cleanup, and specialized facility maintenance. We invest in people, training, and technology so that every property we serve reflects the professional image our clients demand.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Mission Statement -->
+    <!-- Our Mission — 50/50 reversed -->
     <section class="section section--gray">
       <div class="container">
-        <div class="content-split content-split--reverse">
-          <div class="content-image">
-            <img src="assets/combuild4.jpg" alt="Modern commercial building lobby" style="height:360px">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 order-lg-2 slide-in-right">
+            <div class="content-image">
+              <img src="assets/combuild4.jpg" alt="Modern commercial building lobby">
+            </div>
           </div>
-          <div class="content-text">
-            <h2>Our Mission</h2>
-            <p>To deliver consistent, reliable, and environmentally responsible facility maintenance that enhances the value and appearance of every property we serve.</p>
-            <p>We measure success not by the number of buildings on our roster, but by the trust and satisfaction of the people inside them. Our goal is to become an invisible extension of your operations — working quietly in the background so your team can focus on what matters most.</p>
+          <div class="col-lg-6 order-lg-1 slide-in-left">
+            <div class="content-text">
+              <h2>Our Mission</h2>
+              <p>To deliver consistent, reliable, and environmentally responsible facility maintenance that enhances the value and appearance of every property we serve.</p>
+              <p>We measure success not by the number of buildings on our roster, but by the trust and satisfaction of the people inside them. Our goal is to become an invisible extension of your operations — working quietly in the background so your team can focus on what matters most.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -96,77 +105,93 @@
           <h2>Our Core Values</h2>
           <p>These principles guide every decision we make and every property we maintain.</p>
         </div>
-        <div class="values-grid">
-          <div class="value-card">
-            <div class="value-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
-              </svg>
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-1">
+            <div class="value-card">
+              <div class="value-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                </svg>
+              </div>
+              <h3>Integrity</h3>
+              <p>We do the right thing, even when no one is watching. Honesty and transparency are the foundation of every client relationship.</p>
             </div>
-            <h3>Integrity</h3>
-            <p>We do the right thing, even when no one is watching. Honesty and transparency are the foundation of every client relationship.</p>
           </div>
-          <div class="value-card">
-            <div class="value-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
-              </svg>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-2">
+            <div class="value-card">
+              <div class="value-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                </svg>
+              </div>
+              <h3>Excellence</h3>
+              <p>We hold ourselves to the highest standards. Every floor, surface, and corner receives the same meticulous attention to detail.</p>
             </div>
-            <h3>Excellence</h3>
-            <p>We hold ourselves to the highest standards. Every floor, surface, and corner receives the same meticulous attention to detail.</p>
           </div>
-          <div class="value-card">
-            <div class="value-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
-              </svg>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-3">
+            <div class="value-card">
+              <div class="value-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              </div>
+              <h3>Sustainability</h3>
+              <p>Green cleaning isn't optional — it's core to how we work. We protect occupant health and the environment with every product and process we choose.</p>
             </div>
-            <h3>Sustainability</h3>
-            <p>Green cleaning isn't optional — it's core to how we work. We protect occupant health and the environment with every product and process we choose.</p>
           </div>
-          <div class="value-card">
-            <div class="value-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
-              </svg>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-4">
+            <div class="value-card">
+              <div class="value-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/>
+                </svg>
+              </div>
+              <h3>People First</h3>
+              <p>Our employees are our greatest asset. We invest in ongoing training, safety programs, and career growth to build a team you can trust.</p>
             </div>
-            <h3>People First</h3>
-            <p>Our employees are our greatest asset. We invest in ongoing training, safety programs, and career growth to build a team you can trust.</p>
           </div>
-          <div class="value-card">
-            <div class="value-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
-              </svg>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-5">
+            <div class="value-card">
+              <div class="value-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"/>
+                </svg>
+              </div>
+              <h3>Accountability</h3>
+              <p>We own our results. Regular inspections, client feedback loops, and performance metrics ensure we keep our promises.</p>
             </div>
-            <h3>Accountability</h3>
-            <p>We own our results. Regular inspections, client feedback loops, and performance metrics ensure we keep our promises.</p>
           </div>
-          <div class="value-card">
-            <div class="value-icon">
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
-              </svg>
+          <div class="col-lg-4 col-md-6 slide-in-up stagger-6">
+            <div class="value-card">
+              <div class="value-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                </svg>
+              </div>
+              <h3>Reliability</h3>
+              <p>Consistency is everything in facility maintenance. We show up on time, every time, with the right people and the right equipment.</p>
             </div>
-            <h3>Reliability</h3>
-            <p>Consistency is everything in facility maintenance. We show up on time, every time, with the right people and the right equipment.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Trust Section -->
+    <!-- Trust Section — 50/50 -->
     <section class="section section--gray">
       <div class="container">
-        <div class="content-split">
-          <div class="content-image">
-            <img src="assets/combuild6.jpg" alt="Professional office corridor" style="height:360px">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 slide-in-left">
+            <div class="content-image">
+              <img src="assets/combuild6.jpg" alt="Professional office corridor">
+            </div>
           </div>
-          <div class="content-text">
-            <h2>Built on Trust &amp; Quality</h2>
-            <p>Every client relationship we build starts with trust and grows through consistent, measurable performance. We don't ask you to take our word for it — we prove it through transparent reporting, regular quality audits, and open communication.</p>
-            <p>Our management team conducts routine site inspections, reviews cleaning logs, and meets with clients regularly to ensure expectations are not just met but exceeded. This commitment to quality is why our clients stay with us year after year.</p>
-            <a href="contact.html" class="btn btn--primary">Connect with Our Team</a>
+          <div class="col-lg-6 slide-in-right">
+            <div class="content-text">
+              <h2>Built on Trust &amp; Quality</h2>
+              <p>Every client relationship we build starts with trust and grows through consistent, measurable performance. We don't ask you to take our word for it — we prove it through transparent reporting, regular quality audits, and open communication.</p>
+              <p>Our management team conducts routine site inspections, reviews cleaning logs, and meets with clients regularly to ensure expectations are not just met but exceeded. This commitment to quality is why our clients stay with us year after year.</p>
+              <a href="contact.html" class="btn btn--primary">Connect with Our Team</a>
+            </div>
           </div>
         </div>
       </div>
@@ -186,12 +211,14 @@
   <!-- ========== FOOTER ========== -->
   <footer class="site-footer" role="contentinfo">
     <div class="container">
-      <div class="footer-top">
-        <div class="footer-about">
-          <span class="logo-text">SSJ</span>
-          <p>SSJ Commercial Services is a leading provider of janitorial and facility maintenance solutions throughout Nevada. With a focus on quality, sustainability, and client satisfaction, we keep commercial properties clean, safe, and inviting.</p>
+      <div class="row pb-4 mb-4" style="border-bottom: 1px solid rgba(255,255,255,0.1)">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="footer-about">
+            <span class="logo-text">SSJ</span>
+            <p>SSJ Commercial Services is a leading provider of janitorial and facility maintenance solutions throughout Nevada.</p>
+          </div>
         </div>
-        <div>
+        <div class="col-6 col-lg-2 offset-lg-1 mb-4 mb-lg-0">
           <h3 class="footer-heading">Navigation</h3>
           <div class="footer-links">
             <a href="about.html">About</a>
@@ -201,7 +228,7 @@
             <a href="contact.html">Contact</a>
           </div>
         </div>
-        <div>
+        <div class="col-6 col-lg-2 mb-4 mb-lg-0">
           <h3 class="footer-heading">Services</h3>
           <div class="footer-links">
             <a href="services.html">Janitorial Services</a>
@@ -211,7 +238,7 @@
             <a href="services.html">Disinfecting</a>
           </div>
         </div>
-        <div>
+        <div class="col-6 col-lg-2 offset-lg-1">
           <h3 class="footer-heading">Contact</h3>
           <div class="footer-links">
             <a href="tel:+17025550100">(702) 555-0100</a>
@@ -221,31 +248,23 @@
         </div>
       </div>
       <div class="footer-locations">
-        <div class="location-block">
-          <h4>Las Vegas Office</h4>
-          <p>1200 Commerce Center Dr</p>
-          <p>Las Vegas, NV 89128</p>
-          <p>(702) 555-0100</p>
-        </div>
-        <div class="location-block">
-          <h4>Henderson Office</h4>
-          <p>850 Professional Pkwy</p>
-          <p>Henderson, NV 89052</p>
-          <p>(702) 555-0200</p>
-        </div>
-        <div class="location-block">
-          <h4>Reno Office</h4>
-          <p>400 Sierra Business Park</p>
-          <p>Reno, NV 89501</p>
-          <p>(775) 555-0300</p>
+        <div class="row">
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="location-block"><h4>Las Vegas Office</h4><p>1200 Commerce Center Dr</p><p>Las Vegas, NV 89128</p><p>(702) 555-0100</p></div>
+          </div>
+          <div class="col-md-4 mb-3 mb-md-0">
+            <div class="location-block"><h4>Henderson Office</h4><p>850 Professional Pkwy</p><p>Henderson, NV 89052</p><p>(702) 555-0200</p></div>
+          </div>
+          <div class="col-md-4">
+            <div class="location-block"><h4>Reno Office</h4><p>400 Sierra Business Park</p><p>Reno, NV 89501</p><p>(775) 555-0300</p></div>
+          </div>
         </div>
       </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 SSJ Commercial Services. All rights reserved.</p>
-      </div>
+      <div class="footer-bottom"><p>&copy; 2026 SSJ Commercial Services. All rights reserved.</p></div>
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script src="js/main.js"></script>
 </body>
 </html>
