@@ -286,28 +286,9 @@ p {
   text-decoration: none;
 }
 
-.logo-icon {
-  width: 44px;
-  height: 44px;
-}
-
-.logo-text {
-  font-family: var(--font-heading);
-  font-size: 1.6rem;
-  font-weight: 800;
-  color: var(--color-primary);
-  letter-spacing: 2px;
-  line-height: 1;
-}
-
-.logo-tagline {
-  font-family: var(--font-body);
-  font-size: 0.6rem;
-  color: var(--color-medium-gray);
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  display: block;
-  margin-top: 2px;
+.logo-img {
+  height: 48px;
+  width: auto;
 }
 
 /* Desktop Nav */
